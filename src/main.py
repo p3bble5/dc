@@ -10,7 +10,6 @@ VIDEO_LENGTH = (6 * 10) # in seconds
 VIDEO_RATE = 30 # framerate
 
 def main():
-    port = "/dev/serial0"
     recording_path = "/home/evan/"
     logging_path = "/home/evan/"
     gps_dict = {
